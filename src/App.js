@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Container, Header, Wrapper } from './components/index';
+import Main from './pages/Main';
+import Rules from './pages/Rules';
+import Testimonials from './pages/Testimonials';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import PayConfirm from './pages/PayConfirm';
+
+const App = () => {
+    return (
+        <Container height='100%' padding='0px 0px 20px 0px'>
+            <Wrapper width="80%" flex column align="center">
+                <Router>
+                    <Header /> 
+                    <Routes>
+                        <Route path="/" element={<Main />} />
+                        <Route path="/rules" element={<Rules />} />
+                        <Route path='/testimonials' element={<Testimonials />} />
+                        <Route path='/pay_confirm' element={<PayConfirm />} />
+                    </Routes>
+                </Router>
+            </Wrapper>
+        </Container>
+    );
 }
 
 export default App;
