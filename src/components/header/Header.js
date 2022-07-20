@@ -1,6 +1,6 @@
 import React from 'react';
 import {Wrapper, Picture, Navbar} from '../index';
-import logoPic from '../../assets/images/icons/FElogo2.png';
+import logoPic from '../../assets/images/icons/FElogo3.png';
 import navItems from './navItemsData';
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
             <Picture 
                 src={logoPic} 
                 alt="logotype"
-                setWidth="25%"
+                setWidth="20%"
             />
             <Navbar items={navItems} />
         </Wrapper>

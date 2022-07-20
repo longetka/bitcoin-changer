@@ -2,6 +2,7 @@ import Globals from './Globals.styles';
 import Header from './header/Header';
 import Container from './containers/Container';
 import Wrapper from './wrappers/Wrapper';
+import WrapperMain from './wrappers/WrapperMain';
 import Picture from './picture/Picture';
 import Navbar from './navbar/Navbar';
 import List from './list/List';
@@ -26,6 +27,7 @@ export {
     Header, 
     Globals, 
     Wrapper, 
+    WrapperMain,
     Picture, 
     Navbar,
     List,
