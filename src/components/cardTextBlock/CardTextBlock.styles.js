@@ -6,9 +6,9 @@ const CardTextBlockStyled = styled.div`
     margin-top: 15px;
     border-radius: 10px;
 
-    font-family: Montserrat, sans-serif;
+    font-family: var(--font-main);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 `;
 
 export default CardTextBlockStyled;

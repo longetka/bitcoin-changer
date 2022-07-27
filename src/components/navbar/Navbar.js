@@ -1,4 +1,5 @@
-import { Wrapper, List, ListItem, NaviLink } from '../index';
+import NavbarStyled from './Navbar.styles';
+import { List, ListItem, NaviLink } from '../index';
 
 const Navbar = (props) => {
     const renderList = props.items.map((item, index) => {
@@ -10,11 +11,11 @@ const Navbar = (props) => {
     });
 
     return (
-        <Wrapper width="70%" mt="20px" mb="40px">
+        <NavbarStyled width="70%" mt="20px" mb="40px">
             <List type="none" flex justify="space-evenly" width="100%">
                 {renderList}
             </List>
-        </Wrapper>
+        </NavbarStyled>
     )
 }
 export default Navbar;

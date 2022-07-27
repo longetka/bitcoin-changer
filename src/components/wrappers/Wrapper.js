@@ -9,7 +9,7 @@ const Wrapper = (props) => {
             wrap={props.wrap}
             justify={props.justify}
             align={props.align}
-            gap={props.gap}
+            mode={props.mode}
             mt={props.mt}
             mb={props.mb}
         >{props.children}</WrapperStyles>

@@ -21,6 +21,7 @@ import CountDown from './countDown/CountDown';
 import Button from './button/Button';
 import InputRadio from './inputRadio/InputRadio';
 import Note from './note/Note';
+import SubtitleMail from './subtitle/SubtitleMail';
 
 export {
     Container, 
@@ -46,5 +47,6 @@ export {
     Button,
     InputRadio,
     Note,
+    SubtitleMail
 
 };

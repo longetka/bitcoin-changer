@@ -9,6 +9,7 @@ const Card = (props) => {
             column={props.column}
             justify={props.justify}
             align={props.align}
+            mode={props.mode}
         >
             {props.children}
         </CardStyled>

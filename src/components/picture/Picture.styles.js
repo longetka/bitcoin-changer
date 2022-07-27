@@ -8,6 +8,17 @@ const Picture = styled.img`
 
     margin: ${props => props.margin};
     z-index: ${props => props.zIndex};
+
+    ${(props) => {
+            switch (props.mode) {
+                case 'logo':
+                return `
+                    width: 40%;
+                `;
+                default:
+                return ``;
+        }
+    }}
 `;
 
 export default Picture;

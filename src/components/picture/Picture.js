@@ -10,6 +10,7 @@ const Picture = (props) => {
             align={props.align}
             zIndex={props.zIndex}
             margin={props.margin}
+            mode={props.mode}
         />
     );
 };

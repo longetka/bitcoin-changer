@@ -5,8 +5,8 @@ const ButtonStyled = styled.button`
     border: none;
     border-radius: 10px;
     padding: ${props => props.padding};
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
+    font-family: var(--font-main);
+    font-size: 1rem;
     font-weight: 400;
 
     margin: ${props => props.margin};

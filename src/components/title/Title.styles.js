@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 const TitleStyled = styled.h3`
-    font-family: Montserrat, sans-serif;
-    font-size: 18px;
+    font-family: var(--font-main);
+    font-size: 1.125rem;
     font-weight: 800;
     background-color: transparent;
     padding: ${props => props.padding};
     text-align: ${props => props.textCenter ? 'center' : ''};
+    width: ${props => props.width};
 `;
 
 export default TitleStyled;

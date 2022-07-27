@@ -17,6 +17,7 @@ const Header = () => {
                 src={logoPic} 
                 alt="logotype"
                 setWidth="20%"
+                mode='logo'
             />
             <Navbar items={navItems} />
         </Wrapper>

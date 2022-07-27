@@ -4,8 +4,8 @@ import styled from 'styled-components';
 const NaviLinkStyled = styled(NavLink)`
     text-decoration: none;
     color: black;
-    font-family: Montserrat, sans-serif;
-    font-size: 18px;
+    font-family: var(--font-main);
+    font-size: 1.125rem;
     font-weight: 400;
 
     padding: 9px 20px;

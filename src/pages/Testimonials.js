@@ -35,7 +35,7 @@ const Testimonials = (props) => {
             flex 
             wrap 
             justify='center'
-            gap='40px'
+            mode='container'
         >
             {renderTestis}
         </Wrapper>

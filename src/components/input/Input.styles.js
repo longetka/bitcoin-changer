@@ -23,8 +23,8 @@ const InputStyled = styled.input`
     }}
     outline: none;
 
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
+    font-family: var(--font-main);
+    font-size: 1rem;
     font-weight: 400;
 
     width: ${props => props.width};

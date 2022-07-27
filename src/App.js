@@ -4,6 +4,7 @@ import { Container, Header, WrapperMain } from './components/index';
 import Main from './pages/Main';
 import Rules from './pages/Rules';
 import Testimonials from './pages/Testimonials';
+import Support from './pages/Support';
 
 import PayConfirm from './pages/PayConfirm';
 
@@ -18,6 +19,7 @@ const App = () => {
                         <Route path="/rules" element={<Rules />}/>
                         <Route path='/testimonials' element={<Testimonials />}/>
                         <Route path='/pay_confirm' element={<PayConfirm />}/>
+                        <Route path='/support' element={<Support />}/>
                     </Routes>
                 </Router>
             </WrapperMain>

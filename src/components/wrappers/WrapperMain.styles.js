@@ -12,9 +12,16 @@ const WrapperMainStyled = styled(WrapperStyles)`
     @media (max-width: 1450px) {
         width: 75%;
     }
-    @media (max-width: 1280px) {
+    @media (min-width: 1025px) {
         width: 80%;
     }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        width: 95%;
+    }
+    @media only screen and (min-width: 420px) and (max-width: 767px) {
+        width: 95%;
+    }
+    
 `;
 
 export default WrapperMainStyled;

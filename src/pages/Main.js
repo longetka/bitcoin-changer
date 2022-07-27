@@ -16,12 +16,13 @@ import iconChange from '../assets/images/icons/icon-change.png';
 const Main = () => {
     return (
         <Container>
-            <Wrapper width="100%" flex gap='55px'>
+            <Wrapper width="100%" flex mode='container' >
                 <Card 
                     width='33%'
                     height='580px'
                     flex
                     column
+                    mode='card'
                 >
                     <Title text='Отдаете'/>
                     <Input placeholder="Введите сумму" />
@@ -32,12 +33,19 @@ const Main = () => {
                     height='580px'
                     flex
                     column
+                    mode='card'
                 >
                     <Title text='Получаете' />
                     <Input placeholder='000' disabled />
                     <Select options={receiveOptions} />
                 </Card>
-                <Card width='33%' flex column height='580px'>
+                <Card 
+                    width='33%' 
+                    flex 
+                    column 
+                    height='580px'
+                    mode='card'
+                >
                     <Title text='Ввод данных' />
                     <Input placeholder='' disabled />
                     <Picture
