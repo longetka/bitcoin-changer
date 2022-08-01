@@ -12,7 +12,7 @@ const CardStyled = styled(WrapperStyles)`
                 case 'card':
                 return `
                     @media only screen and
-                    (min-width: 420px) and
+                    (min-width: 320px) and
                     (max-width: 767px) {
                         width: 100%;
                     }

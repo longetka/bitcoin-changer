@@ -14,7 +14,7 @@ const WrapperStyles = styled.div`
                     gap: 3.4375rem;
                     
                     @media only screen and
-                    (min-width: 420px) and
+                    (min-width: 320px) and
                     (max-width: 767px) {
                         gap: 1rem;
                         flex-wrap: wrap;
